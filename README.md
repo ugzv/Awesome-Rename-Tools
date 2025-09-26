@@ -166,8 +166,8 @@ Integrated bulk rename in Thunar file manager (`thunar -B`). Template-based rena
 
 *Quick solutions that run in your browser.*
 
-**[Online Bulk Rename](https://bulkrename.online/)** `Free` `Web`
-Simple web tool for basic operations. Everything runs client-side so your files never leave your computer.
+**[Renamer.ai (Web)](https://renamer.ai/web)** `Free` `Paid` `Web` `AI-Powered`
+AI-powered file renaming in your browser. Analyzes content and generates intelligent names without uploading files.
 
 **[WebRename](https://webrename.com/)** `Free` `Web`
 Pattern-based renaming with real-time preview. Good for simple find-and-replace operations.
