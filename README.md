@@ -405,7 +405,6 @@ Automated file organization tool that watches folders and can auto-rename/move f
 ### Communities & Support
 
 - **[r/DataHoarder](https://reddit.com/r/DataHoarder)** — Reddit community focused on data organization, storage, and file management best practices.
-- **[File Organization Communities](https://www.facebook.com/groups/fileorganization/)** — Facebook groups and forums dedicated to digital file management and organization strategies.
 
 ## Use Cases & Success Stories
 
