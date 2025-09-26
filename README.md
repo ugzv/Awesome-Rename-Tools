@@ -295,14 +295,14 @@ Automated file organization tool that watches folders and can auto-rename/move f
 
 ### Platform Compatibility Matrix
 
-| Tool | Windows | macOS | Linux | Web | CLI |
-|------|---------|--------|-------|-----|-----|
-| **Renamer.ai** | ✅ | ✅ | ✅ | ❌ | ❌ |
-| **Bulk Rename Utility** | ✅ | ❌ | ❌ | ❌ | ✅ |
-| **F2** | ✅ | ✅ | ✅ | ❌ | ✅ |
-| **Advanced Renamer** | ✅ | ✅ | ❌ | ❌ | ❌ |
-| **Name Mangler** | ❌ | ✅ | ❌ | ❌ | ❌ |
-| **FileBot** | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Tool | Windows | macOS | Linux | Web | CLI | API |
+|------|---------|--------|-------|-----|-----|-----|
+| **Renamer.ai** | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| **Bulk Rename Utility** | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **F2** | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
+| **Advanced Renamer** | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **Name Mangler** | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **FileBot** | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 
 ### Pricing Overview
 
