@@ -169,7 +169,7 @@ Integrated bulk rename in Thunar file manager (`thunar -B`). Template-based rena
 **[Online Bulk Rename](https://bulkrename.online/)** `Free` `Web`
 Simple web tool for basic operations. Everything runs client-side so your files never leave your computer.
 
-**[Rename.it](https://rename.it/)** `Free` `Web`
+**[WebRename](https://webrename.com/)** `Free` `Web`
 Pattern-based renaming with real-time preview. Good for simple find-and-replace operations.
 
 ---
@@ -181,19 +181,20 @@ Pattern-based renaming with real-time preview. Good for simple find-and-replace 
 **[FileBot](https://www.filebot.net/)** `$6/year` `Desktop` `Cross-platform` ⭐ Ultimate TV/Movie Renamer
 The ultimate TV and movie renamer. Matches files to online databases (TheMovieDB, TVDB, AniDB), fetches artwork, subtitles, and creates nfo files. Cross-platform with extensive format expressions and scripting.
 
-**[MusicBrainz Picard](https://picard-docs.musicbrainz.org/)** `Free` `Desktop` `Cross-platform`
+**[MusicBrainz Picard](https://picard.musicbrainz.org/)** `Free` `Desktop` `Cross-platform`
 Music tagger that can rename files from tags using naming scripts. Matches music to MusicBrainz database for accurate tagging and renaming.
 
-**[Mp3tag](https://docs.mp3tag.de/)** `Free` `Paid` `Desktop` `Windows`
+**[Mp3tag](https://www.mp3tag.de/en/)** `Free` `Paid` `Desktop` `Windows`
 Tag editor for audio files that can rename/move files by tag templates. Supports many audio formats and online databases.
 
 **[XnView MP / XnConvert](https://www.xnview.com/)** `Free` `Desktop` `Cross-platform`
 Image manager and converter with batch rename capabilities using date/EXIF tokens, plus batch conversion.
 
-**[Exif Renamer](https://github.com/marcellopato/exif-renamer)** `Free` `CLI` `Cross-platform`
+**[ExifRenamer (macOS)](https://www.qdev.de/?location=mac/exifrenamer)** `Free` `Desktop` `macOS`
+*or* **[node-exif-renamer](https://github.com/dylansmith/node-exif-renamer)** `Free` `CLI` `Cross-platform`
 Renames photos using EXIF data like date taken, camera model, GPS coordinates. Perfect for organizing thousands of vacation photos.
 
-**[PhotoRenamer](https://github.com/Skymirrh/PhotoRenamer)** `Free` `CLI` `Cross-platform`
+**[PhotoRenamer (TGMDev)](https://www.tgmdev.be/applications/photorenamer/photorenamer.php)** `Free` `Desktop` `Windows`
 More comprehensive photo organization tool. Can detect duplicates and organize into folders based on metadata.
 
 **[TV Rename](https://www.tvrename.com/)** `Free` `Desktop` `Windows`
@@ -211,7 +212,7 @@ Cross-platform movie/TV organizer with powerful renaming capabilities and metada
 **[Total Commander — Multi-Rename Tool](https://www.ghisler.ch/wiki/index.php?title=Multi-rename_tool)** `Paid` `Desktop` `Windows`
 Windows file manager with advanced built-in renamer. Supports presets, regex, EXIF/ID3 tokens, and counter variables.
 
-**[Directory Opus — Advanced Rename](https://www.gpsoft.com.au/help/opus12/Documents/Renaming_Files.htm)** `Paid` `Desktop` `Windows`
+**[Directory Opus — Advanced Rename](https://docs.dopus.com/doku.php?id=file_operations:renaming_files:advanced_rename)** `Paid` `Desktop` `Windows`
 Windows file manager with wildcards/regex, metadata tokens, scripts, and recursive operations.
 
 **[Double Commander — Multi-Rename](https://doublecmd.github.io/doc/en/multirename.html)** `Free` `Desktop` `Cross-platform`
@@ -263,17 +264,18 @@ Python tool with regex support and programmatic interface.
 
 ## Browser Extensions
 
-**[Download Organizer](https://chrome.google.com/webstore/detail/download-organizer/*)** `Free` `Extension` `Chrome`
+**[RegExp Download Organizer](https://chromewebstore.google.com/detail/regexp-download-organizer/oamembonjndgangicfphlckkdmagpjlg)** `Free` `Extension` `Chrome`
 Chrome extension that automatically organizes downloads into folders and can rename files based on customizable rules.
 
 ---
 
 ## Mobile Apps
 
-**[Bulk Rename](https://play.google.com/store/apps/details?id=com.bulkrename)** `Free` `Mobile` `Android`
+**[Flut Renamer](https://play.google.com/store/apps/details?id=net.sunjiao.renamer)** `Free` `Mobile` `Android`
+*or* **[Bulk Renamer](https://play.google.com/store/apps/details?id=com.panaustik.bulkrenamer)** `Free` `Mobile` `Android`
 Basic batch renaming on your phone. Simple interface for common renaming tasks. Free with ads.
 
-**[File Renamer](https://apps.apple.com/app/file-renamer/)** `$2.99` `Mobile` `iOS`
+**[Renamer – Batch file renamer](https://apps.apple.com/us/app/renamer/id6739964693)** `Paid` `Mobile` `iOS`
 Works with iCloud and other cloud storage providers. Supports pattern-based renaming on mobile devices.
 
 ---
@@ -283,7 +285,7 @@ Works with iCloud and other cloud storage providers. Supports pattern-based rena
 **[Renamer.ai API](https://renamer.ai/api)** `Paid` `API` `Enterprise`
 RESTful API for integrating AI-powered renaming into business workflows. Includes custom implementation services for large-scale document organization projects.
 
-**[PowerShell Rename-Item](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item)** `Free` `CLI` `Windows` `Enterprise`
+**[PowerShell Rename-Item](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item)** `Free` `CLI` `Windows` `Enterprise`
 Built into Windows. PowerShell scripting for automated, enterprise-scale renaming operations with pipeline support.
 
 **[Hazel (macOS)](https://www.noodlesoft.com/)** `Paid` `Desktop` `macOS` `Enterprise`
@@ -395,8 +397,9 @@ Automated file organization tool that watches folders and can auto-rename/move f
 
 ### Documentation & References
 
-- **[PowerShell Rename Cmdlets](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/)** — Official Microsoft PowerShell documentation for file operations.
-- **[Linux rename Command Guide](https://linux.die.net/man/1/rename)** — Comprehensive guide to Linux rename utilities and their variants.
+- **[PowerShell Rename Cmdlets](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/)** — Official Microsoft PowerShell documentation for file operations.
+- **Perl `rename` (prename) — Debian manpage:** https://manpages.debian.org/rename.1p
+- **util-linux `rename.ul` — Ubuntu manpage:** https://manpages.ubuntu.com/manpages/noble/man1/rename.ul.1.html
 - **[Perl rename vs util-linux rename differences](https://manpages.debian.org/)** — Understanding the differences between rename implementations across distributions.
 
 ### Communities & Support
