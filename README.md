@@ -251,15 +251,6 @@ Official Go tool for type-safe identifier renaming in Go codebases. Part of gola
 **[rename-cli](https://github.com/jhotmann/node-rename-cli)** `Free` `Library` `Node.js`
 Node.js library with both CLI and programmatic API. Flexible and extensible for custom applications.
 
-**[glob-rename](https://github.com/alexlafroscia/glob-rename)** `Free` `Library` `JavaScript`
-JavaScript library for glob pattern-based renaming operations.
-
-**[rename (Python)](https://github.com/SkullTech/rename)** `Free` `Library` `Python`
-Simple Python library for basic file renaming operations.
-
-**[bulk-rename (Python)](https://github.com/bharathgs/bulk-rename)** `Free` `Library` `Python`
-Python tool with regex support and programmatic interface.
-
 ---
 
 ## Browser Extensions
