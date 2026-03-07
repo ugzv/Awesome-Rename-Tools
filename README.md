@@ -1,4 +1,6 @@
-# Awesome Rename Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/ugzv/awesome-rename-tools/badge.svg)](https://www.trackawesomelist.com/ugzv/awesome-rename-tools/) [![CI](https://github.com/ugzv/Awesome-Rename-Tools/actions/workflows/ci.yml/badge.svg)](https://github.com/ugzv/Awesome-Rename-Tools/actions/workflows/ci.yml) [![Last Commit](https://img.shields.io/github/last-commit/ugzv/Awesome-Rename-Tools)](https://github.com/ugzv/Awesome-Rename-Tools/commits/main)
+# Awesome Rename Tools
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![CI](https://github.com/ugzv/Awesome-Rename-Tools/actions/workflows/ci.yml/badge.svg)](https://github.com/ugzv/Awesome-Rename-Tools/actions/workflows/ci.yml) [![Last Commit](https://img.shields.io/github/last-commit/ugzv/Awesome-Rename-Tools)](https://github.com/ugzv/Awesome-Rename-Tools/commits/main)
 
 > A curated list of file renaming tools, libraries, and resources for batch renaming, metadata-based organization, and filename cleanup.
 
