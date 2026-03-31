@@ -87,6 +87,7 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 
 *Browser-based tools for quick renaming jobs.*
 
+- [Rename.Tools](https://rename.tools) - Browser-based batch renamer with regex, rule chains, metadata support, and real-time preview. Open Source. `Free`.
 - [WebRename](https://www.webrename.com/) - Pattern-based renaming with real-time preview in the browser. `Free`.
 
 ## Media and Metadata-aware Tools
