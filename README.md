@@ -29,6 +29,7 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 
 - [Renamer.ai](https://renamer.ai) - AI-powered document and file renaming for desktop and web workflows with folder automation. `Free` `Paid`.
 - [Riffo.ai](https://riffo.ai) - AI-driven file renaming and organization for macOS and the web. `Free` `Paid`.
+- [Zush](https://zushapp.com) - AI file renamer for macOS and Windows that names images, PDFs, documents, audio, and video by their content, with naming templates, folder monitoring, preview, and undo. `Free` `Paid`.
 
 ## Command Line Tools
 
