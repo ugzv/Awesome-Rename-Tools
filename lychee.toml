@@ -1,0 +1,12 @@
+# Retry temporary network failures without accepting failed HTTP status codes.
+max_retries = 4
+retry_wait_time = 5
+
+# Reddit blocks automated GitHub Actions requests with HTTP 403.
+# This exact community URL was accessible during review on 2026-10-22.
+exclude = ['^https://www\.reddit\.com/r/DataHoarder/$']
+
+# Keep requests to the renameutils host conservative after observed HTTP 429s.
+[hosts."www.nongnu.org"]
+concurrency = 1
+request_interval = "5s"

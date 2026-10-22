@@ -1,6 +1,6 @@
-# Awesome Rename Tools
+# Awesome Rename Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![CI](https://github.com/ugzv/Awesome-Rename-Tools/actions/workflows/ci.yml/badge.svg)](https://github.com/ugzv/Awesome-Rename-Tools/actions/workflows/ci.yml) [![Last Commit](https://img.shields.io/github/last-commit/ugzv/Awesome-Rename-Tools)](https://github.com/ugzv/Awesome-Rename-Tools/commits/main)
+[![CI](https://github.com/ugzv/Awesome-Rename-Tools/actions/workflows/ci.yml/badge.svg)](https://github.com/ugzv/Awesome-Rename-Tools/actions/workflows/ci.yml) [![Last Commit](https://img.shields.io/github/last-commit/ugzv/Awesome-Rename-Tools)](https://github.com/ugzv/Awesome-Rename-Tools/commits/main)
 
 > A curated list of file renaming tools, libraries, and resources for batch renaming, metadata-based organization, and filename cleanup.
 
@@ -24,7 +24,7 @@ Last reviewed: October 22, 2026.
 - [Development Tools](#development-tools)
 - [Browser Extensions](#browser-extensions)
 - [Mobile Apps](#mobile-apps)
-- [Enterprise Solutions](#enterprise-solutions)
+- [File Automation](#file-automation)
 - [Resources](#resources)
 
 ## AI-Powered Renaming
@@ -57,7 +57,6 @@ Last reviewed: October 22, 2026.
 
 - [Advanced Renamer](https://www.advancedrenamer.com/) - Batch renamer for Windows and macOS with metadata rules; free for occasional personal use, with a license required for frequent personal or commercial use. `Free` `Paid`.
 - [Flut Renamer](https://github.com/sun-jiao/flut-renamer) - Flutter-based batch renamer for desktop and mobile platforms with metadata and EXIF insertion. `Free`.
-- [Metamorphose](https://github.com/metamorphose/metamorphose2) - Older cross-platform GUI renamer with regex support and extensive actions. `Free` `Legacy`.
 - [Renamer](https://renamer.com/) - Multi-step batch renamer with workflows and presets for macOS and Windows. `Paid`.
 - [Szyszka](https://github.com/qarmin/szyszka) - Rust and GTK4 renamer with combinable rules and good performance on large file sets. `Free`.
 
@@ -82,6 +81,7 @@ Last reviewed: October 22, 2026.
 
 *Linux-focused GUI renaming tools and file manager helpers.*
 
+- [Bulky](https://github.com/linuxmint/bulky) - Linux Mint batch renamer for files and directories across Cinnamon, MATE, GNOME, and other Linux desktops. `Free`.
 - [GPRename](https://gprename.sourceforge.net/) - GTK-based batch renamer for files and directories with replace, insert, and enumerate functions. `Free`.
 - [KRename](https://apps.kde.org/krename/) - KDE renaming tool with EXIF and ID3 plugins, undo support, and scripting features. `Free`.
 - [Thunar Bulk Renamer](https://docs.xfce.org/xfce/thunar/bulk-renamer/start) - Built-in bulk rename interface for the Thunar file manager. `Free`.
@@ -97,12 +97,12 @@ Last reviewed: October 22, 2026.
 *Tools that rename files using embedded media metadata or media databases.*
 
 - [beets](https://github.com/beetbox/beets) - Music library manager that tags and renames audio files with MusicBrainz and AcoustID. `Free`.
+- [digiKam](https://www.digikam.org/) - Photo manager for Windows, macOS, and Linux with batch renaming from metadata, dates, and sequence numbers. `Free`.
 - [ExifRenamer](https://www.qdev.de/?location=mac/exifrenamer) - macOS app for renaming photos from EXIF metadata such as capture date and camera details. `Free`.
 - [ExifTool](https://exiftool.org/) - Industry-standard metadata utility for renaming and organizing files across hundreds of formats. `Free`.
 - [FileBot](https://www.filebot.net/) - Movie and TV renamer that matches files to online databases and fetches metadata. `Paid`.
 - [Mp3tag](https://www.mp3tag.de/en/) - Audio tag editor that can rename and move files from metadata templates. `Free` `Paid`.
 - [MusicBrainz Picard](https://picard.musicbrainz.org/) - Cross-platform GUI music tagger with scripting and MusicBrainz-based renaming. `Free`.
-- [node-exif-renamer](https://github.com/dylansmith/node-exif-renamer) - CLI tool for renaming photos from EXIF data. `Free` `Stale`.
 - [PhotoRenamer](https://www.tgmdev.be/applications/photorenamer/photorenamer.php) - Windows photo organizer with metadata-driven naming and duplicate detection. `Free`.
 - [tinyMediaManager](https://www.tinymediamanager.org/) - Movie and TV organizer with renaming in the free edition and additional metadata sources and integrations in the paid Pro edition. `Free` `Paid`.
 - [TV Rename](https://www.tvrename.com/) - Windows TV episode manager focused on clean naming and show organization. `Free`.
@@ -122,8 +122,7 @@ Last reviewed: October 22, 2026.
 
 *Renaming tools that are specific to codebases, projects, or developer workflows.*
 
-- [gorename](https://pkg.go.dev/golang.org/x/tools/cmd/gorename) - Deprecated Go refactoring tool for renaming code identifiers rather than files. `Free` `Legacy`.
-- [Unity Mulligan Renamer](https://github.com/redbluegames/unity-mulligan-renamer) - Unity asset renamer for batch updates inside game projects. `Free` `Stale`.
+- [Unity Mulligan Renamer](https://github.com/redbluegames/unity-mulligan-renamer) - Unity asset renamer for batch updates inside game projects. `Free`.
 
 ## Browser Extensions
 
@@ -139,11 +138,12 @@ Last reviewed: October 22, 2026.
 - [Flut Renamer](https://play.google.com/store/apps/details?id=net.sunjiao.renamer) - Android app version of the cross-platform Flut Renamer project. `Free`.
 - [Renamer - Batch file renamer](https://apps.apple.com/us/app/renamer/id6739964693) - iPhone and iPad batch renamer with a limited free trial and a one-time Pro purchase. `Paid`.
 
-## Enterprise Solutions
+## File Automation
 
-*Commercial or automation-oriented tools used in larger document and workflow pipelines.*
+*Rule-based tools for renaming, sorting, and organizing files automatically.*
 
 - [Hazel](https://www.noodlesoft.com/) - Rule-based macOS automation tool for renaming and moving files as they arrive. `Paid`.
+- [organize](https://github.com/tfeldmann/organize) - Rule-based file renaming and organization using metadata, document text, and templates, with a simulation mode for checking changes. `Free`.
 
 ## Resources
 
