@@ -4,7 +4,11 @@
 
 > A curated list of file renaming tools, libraries, and resources for batch renaming, metadata-based organization, and filename cleanup.
 
-Commercial tools are labeled with `Paid`. Older or weakly maintained projects are labeled with `Stale` or `Legacy` where that status materially affects adoption.
+New tool submissions must be free to use and open source. Existing commercial listings are maintained for accuracy.
+
+`Free` can mean a free tier or use limited to personal projects; check the entry and project license for restrictions. Commercial plans are labeled `Paid`. Projects with relevant maintenance or compatibility limits are labeled `Stale` or `Legacy`.
+
+Last reviewed: October 22, 2026.
 
 ## Contents
 
@@ -27,23 +31,22 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 
 *Tools that inspect file contents and generate names automatically.*
 
-- [Renamer.ai](https://renamer.ai) - AI-powered document and file renaming for desktop and web workflows with folder automation. `Free` `Paid`.
-- [Riffo.ai](https://riffo.ai) - AI-driven file renaming and organization for macOS and the web. `Free` `Paid`.
+- [Renamer.ai](https://renamer.ai) - AI renaming for PDFs, images, and documents with custom naming templates, folder organization, and watched-folder automation for Windows, macOS, and web workflows; includes a free tier. `Free` `Paid`.
 
 ## Command Line Tools
 
 *Tools for batch renaming files from the terminal.*
 
 - [brename](https://github.com/shenwei356/brename) - Go-based batch renamer with regex support, undo records, and collision checks. `Free`.
-- [detox](https://github.com/dharple/detox) - Filename sanitizing utility for stripping unsafe characters and transliterating messy names. `Free`.
+- [detox](https://github.com/dharple/detox) - Unix filename cleanup utility with dry-run support; development is paused and the repository is archived. `Free` `Stale`.
 - [edir](https://github.com/bulletmark/edir) - Bulk rename tool that lets you edit a file list in your text editor with preview and git-aware moves. `Free`.
 - [F2](https://github.com/ayoisaiah/f2) - Cross-platform renaming tool with dry runs, variables, EXIF support, and conflict handling. `Free`.
 - [massren](https://github.com/laurent22/massren) - Batch rename tool that opens filenames in your text editor and applies the edited result. `Free`.
 - [mmv](https://github.com/rrthomas/mmv) - Classic Unix tool for moving, copying, linking, or renaming files with wildcard source and target patterns. `Free`.
 - [nomino](https://github.com/yaa110/nomino) - Rust batch renamer with regex patterns, sort-based numbering, JSON maps, and dry-run mode. `Free`.
-- [PowerShell Rename-Item](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item) - Built-in Windows command for scripted renaming with pipeline and regex support. `Free`.
-- [rename (Perl and util-linux)](https://manpages.debian.org/rename.1p) - Classic regex-driven mass renamer available in multiple Linux variants. `Free`.
-- [rename.ul (util-linux)](https://manpages.ubuntu.com/manpages/noble/man1/rename.ul.1.html) - util-linux implementation of `rename` with behavior that differs from the Perl variant. `Free`.
+- [PowerShell Rename-Item](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item) - PowerShell cmdlet for scripted file and folder renaming with pipeline support and a `-WhatIf` preview. `Free`.
+- [rename (Perl)](https://manpages.debian.org/trixie/rename/rename.1.en.html) - Batch renamer that applies Perl expressions to filenames, also packaged as `file-rename`. `Free`.
+- [rename.ul (util-linux)](https://manpages.debian.org/trixie/util-linux/rename.ul.1.en.html) - Batch renamer that replaces literal text in filenames; its syntax differs from the Perl variant. `Free`.
 - [renamer](https://github.com/75lb/renamer) - Node.js renaming tool with plugin support and flexible input handling. `Free`.
 - [renameutils](https://www.nongnu.org/renameutils/) - POSIX utility suite including `qmv`, `qcp`, `imv`, `icp`, and `deurlname` for interactive and editor-based renaming. `Free`.
 - [rnr](https://github.com/ismaelgv/rnr) - Rust-based regex renamer with dry-run mode, backups, and recursive directory support. `Free`.
@@ -52,9 +55,10 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 
 *Graphical renaming tools that work across more than one desktop operating system.*
 
-- [Advanced Renamer](https://www.advancedrenamer.com/) - Batch renaming app with multiple rule types and good metadata extraction support. `Free`.
+- [Advanced Renamer](https://www.advancedrenamer.com/) - Batch renamer for Windows and macOS with metadata rules; free for occasional personal use, with a license required for frequent personal or commercial use. `Free` `Paid`.
 - [Flut Renamer](https://github.com/sun-jiao/flut-renamer) - Flutter-based batch renamer for desktop and mobile platforms with metadata and EXIF insertion. `Free`.
 - [Metamorphose](https://github.com/metamorphose/metamorphose2) - Older cross-platform GUI renamer with regex support and extensive actions. `Free` `Legacy`.
+- [Renamer](https://renamer.com/) - Multi-step batch renamer with workflows and presets for macOS and Windows. `Paid`.
 - [Szyszka](https://github.com/qarmin/szyszka) - Rust and GTK4 renamer with combinable rules and good performance on large file sets. `Free`.
 
 ## Desktop Applications - Windows
@@ -62,7 +66,7 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 *Graphical renaming tools built for Windows users.*
 
 - [Ant Renamer](https://www.antp.be/software/renamer) - Lightweight Unicode-aware batch renamer with common transformation rules. `Free`.
-- [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) - Feature-rich Windows renaming tool for very large batches of files. `Free`.
+- [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) - Windows batch renamer; free for private use at home, with paid licenses for commercial use and additional features. `Free` `Paid`.
 - [PowerRename](https://learn.microsoft.com/en-us/windows/powertoys/powerrename) - Microsoft PowerToys renaming utility with regex, preview, and shell integration. `Free`.
 - [ReNamer](https://www.den4b.com/products/renamer) - Rule-based Windows renamer with presets and multi-step transformations. `Free` `Paid`.
 
@@ -73,7 +77,6 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 - [A Better Finder Rename](https://www.publicspace.net/ABetterFinderRename/) - Finder-integrated batch renamer with rich metadata and camera-oriented rules. `Paid`.
 - [Name Mangler](https://manytricks.com/namemangler/) - Native macOS renamer with fast batch processing and many metadata fields. `Paid`.
 - [NameChanger](https://mrrsoftware.com/namechanger/) - Simple macOS batch renamer with regex support and drag-and-drop workflow. `Free`.
-- [Renamer](https://renamer.com/) - Multi-step batch renamer with workflows and presets for macOS and Windows. `Paid`.
 
 ## Desktop Applications - Linux
 
@@ -101,9 +104,9 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 - [MusicBrainz Picard](https://picard.musicbrainz.org/) - Cross-platform GUI music tagger with scripting and MusicBrainz-based renaming. `Free`.
 - [node-exif-renamer](https://github.com/dylansmith/node-exif-renamer) - CLI tool for renaming photos from EXIF data. `Free` `Stale`.
 - [PhotoRenamer](https://www.tgmdev.be/applications/photorenamer/photorenamer.php) - Windows photo organizer with metadata-driven naming and duplicate detection. `Free`.
-- [tinyMediaManager](https://www.tinymediamanager.org/) - Movie and TV organizer with metadata fetching and configurable renaming. `Free`.
+- [tinyMediaManager](https://www.tinymediamanager.org/) - Movie and TV organizer with renaming in the free edition and additional metadata sources and integrations in the paid Pro edition. `Free` `Paid`.
 - [TV Rename](https://www.tvrename.com/) - Windows TV episode manager focused on clean naming and show organization. `Free`.
-- [XnView MP and XnConvert](https://www.xnview.com/) - Image management and conversion tools with batch renaming and EXIF-aware tokens. `Free`.
+- [XnView MP and XnConvert](https://www.xnview.com/) - Image management and conversion tools with batch renaming and EXIF-aware tokens; free for private or educational use, with licenses required for company use. `Free` `Paid`.
 
 ## File Manager Integrations
 
@@ -112,14 +115,14 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 - [Directory Opus Advanced Rename](https://docs.dopus.com/doku.php?id=file_operations:renaming_files:advanced_rename) - Advanced rename module for Directory Opus with wildcards, regex, metadata, and scripts. `Paid`.
 - [Double Commander Multi-Rename](https://doublecmd.github.io/doc/en/multirename.html) - Built-in multi-rename tool for the Double Commander file manager. `Free`.
 - [GNOME Files Batch Rename](https://apps.gnome.org/Nautilus/) - Template-based batch rename built into GNOME Files. `Free`.
-- [macOS Finder Batch Rename](https://support.apple.com/guide/mac-help/rename-multiple-files-on-mac-mchlp1144/mac) - Built-in Finder feature for replace, add, and format renaming templates. `Free`.
+- [macOS Finder Batch Rename](https://support.apple.com/guide/mac-help/mchlp1144/mac) - Built-in Finder feature for replace, add, and format renaming templates. `Free`.
 - [Total Commander Multi-Rename Tool](https://www.ghisler.ch/wiki/index.php?title=Multi-rename_tool) - Built-in batch renaming tool for Total Commander. `Paid`.
 
 ## Development Tools
 
 *Renaming tools that are specific to codebases, projects, or developer workflows.*
 
-- [gorename](https://pkg.go.dev/golang.org/x/tools/cmd/gorename) - Go refactoring tool for type-safe identifier renaming across codebases. `Free`.
+- [gorename](https://pkg.go.dev/golang.org/x/tools/cmd/gorename) - Deprecated Go refactoring tool for renaming code identifiers rather than files. `Free` `Legacy`.
 - [Unity Mulligan Renamer](https://github.com/redbluegames/unity-mulligan-renamer) - Unity asset renamer for batch updates inside game projects. `Free` `Stale`.
 
 ## Browser Extensions
@@ -132,9 +135,9 @@ Commercial tools are labeled with `Paid`. Older or weakly maintained projects ar
 
 *Renaming tools that work directly on mobile devices.*
 
-- [Bulk Renamer](https://play.google.com/store/apps/details?id=com.panaustik.bulkrenamer) - Android batch renamer for common rename operations on-device. `Free`.
+- [Bulk Renamer](https://play.google.com/store/apps/details?id=com.panaustik.bulkrenamer) - Android batch renamer with ads and in-app purchases. `Free` `Paid`.
 - [Flut Renamer](https://play.google.com/store/apps/details?id=net.sunjiao.renamer) - Android app version of the cross-platform Flut Renamer project. `Free`.
-- [Renamer - Batch file renamer](https://apps.apple.com/us/app/renamer/id6739964693) - iOS batch renamer with cloud storage integration. `Paid`.
+- [Renamer - Batch file renamer](https://apps.apple.com/us/app/renamer/id6739964693) - iPhone and iPad batch renamer with a limited free trial and a one-time Pro purchase. `Paid`.
 
 ## Enterprise Solutions
 

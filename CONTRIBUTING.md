@@ -4,6 +4,9 @@ Thanks for helping improve Awesome Rename Tools.
 
 ## Before You Submit
 
+- New tools must be free to use and open source, with a public source repository and an open-source license.
+- A free trial, free tier, or visible source code without an open-source license is not enough.
+- The core renaming workflow must work without a required paid plan or paid API.
 - Search the README first to avoid duplicate entries.
 - Open one pull request per item or tightly related fix.
 - Use a specific PR title such as `Add nomino to Command Line Tools`.
@@ -24,14 +27,15 @@ Rules:
 - Keep the description to one sentence when possible.
 - Do not use promotional wording such as "best", "amazing", "ultimate", or "world-class".
 - Prefer the GitHub repository URL for open-source projects.
-- Use the official product site for commercial tools, app stores, or built-in platform features.
+- For new tools, include the source repository and license in the pull request.
+- When correcting an existing listing, keep links on official project sites, documentation, or app stores.
 
 ## Labels
 
 Use short inline labels only when they add useful context:
 
-- `Free`
-- `Paid`
+- `Free`: a usable free edition; state any personal-use or feature limits.
+- `Paid`: paid editions or a required license; a trial alone does not qualify as `Free`.
 - `Stale`
 - `Legacy`
 
@@ -51,9 +55,13 @@ Entries should be:
 - Keep sections in the existing order.
 - Keep entries alphabetized within each section.
 
-## Commercial Tools
+## Scope of New Additions
 
-Commercial tools are allowed, but they must be labeled `Paid`.
+New proprietary or paid tools are not accepted, including proprietary tools with a free tier. This applies to all categories.
+
+Existing commercial listings can be corrected or removed when outdated or unavailable. Their presence is not an exception for new submissions.
+
+Documentation and learning resources remain welcome when relevant to file renaming.
 
 ## Badge for Listed Projects
 

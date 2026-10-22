@@ -4,6 +4,8 @@
 
 ## Checklist
 
+- [ ] For a new tool, I linked its public source repository and open-source license, or marked this as an update/resource submission.
+- [ ] For a new tool, I confirmed the core renaming workflow is free without a required paid plan or paid API.
 - [ ] I searched the list for duplicates.
 - [ ] I followed the entry format in `CONTRIBUTING.md`.
 - [ ] I kept the category order intact.
@@ -16,5 +18,7 @@
 - Project:
 - URL:
 - Category:
-- Pricing:
+- Source repository (new tools):
+- License (new tools):
+- Pricing and free-use limits:
 - Why it belongs:
