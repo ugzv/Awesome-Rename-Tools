@@ -32,6 +32,7 @@ Last reviewed: October 22, 2026.
 *Tools that inspect file contents and generate names automatically.*
 
 - [Renamer.ai](https://renamer.ai) - AI renaming for PDFs, images, and documents with custom naming templates, folder organization, and watched-folder automation for Windows, macOS, and web workflows; includes a free tier. `Free` `Paid`.
+- [Zush](https://zushapp.com) - AI file renamer for macOS and Windows that names images, PDFs, documents, audio, and video by their content, with naming templates, folder monitoring, preview, and undo. `Free` `Paid`.
 
 ## Command Line Tools
 
