@@ -150,6 +150,7 @@ Last reviewed: October 22, 2026.
 *Documentation, learning material, and communities for better file naming and renaming workflows.*
 
 - [Data Management Best Practices](https://guides.library.stanford.edu/data-best-practices) - Stanford guide to organizing and managing research files.
+- [How to Batch Rename Files](https://renamerx.com/blog/how-to-batch-rename-files) - A practical guide to choosing a batch rename method based on filename patterns, metadata, or file contents.
 - [PowerShell Rename Cmdlets](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/) - Official Microsoft documentation for PowerShell file operations.
 - [Regular Expressions for File Renaming](https://regex101.com/) - Interactive regex tester and learning resource.
 - [r/DataHoarder](https://www.reddit.com/r/DataHoarder/) - Community discussions about storage, organization, and file management.
